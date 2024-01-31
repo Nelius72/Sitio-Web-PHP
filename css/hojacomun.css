@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+@media print {
+
+    header, footer, nav, aside {
+          display: none;
+        }
+  }
+
+
+body{ 
+    font-family: 'Dosis' ;
+    background-image: url(../img/fondoaficiones.jpg);
+    background-size: cover;
+   
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    color: white ;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(3, 3, 3); 
+    text-decoration: underline;
+}
+
+h3{ 
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(255, 115, 0) ;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(3, 3, 3); 
+    text-decoration: underline;
+}
+h4{
+    color: black;
+    font-weight: bold;
+  }
+
+p.volver{
+    font-weight: bold;
+    color: black;
+    font-size: small;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    right: 5%;
+}
+
+div.centrado {
+    text-align: center;
+
+  }
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size: 15px;
+    font-weight: bold;
+    
+    }
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+          
+nav li{
+    font-family: 'Dosis';
+    width:150px;
+    padding:10px 10px;
+    background-color:rgb(248, 248, 248);
+    border:1px solid #000;
+    text-align:center;
+    color:black;
+    position:relative;
+    margin: 0px;
+    box-sizing:border-box;
+    font-size:0;
+    
+}
+          
+nav li:hover{
+    background-color:rgb(236, 235, 234);
+    
+    }
+          
+nav li>ul{
+    display:none;
+    padding: 0;
+    }
+
+nav li:hover>ul{
+    display:block;
+    position:absolute;
+    top: 40px;
+    left:0;
+    
+    
+}
+a:visited {
+    color: white;
+  }
+
+  a:hover {
+    background-color: #3282b8;
+    border-radius: 8px;
+    padding: 7px;
+    
+  }
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.navegador {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .navegador nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+  }
+  
+  .navegador ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navegador ul a {
+    margin-left: 1em;
+    text-decoration: none;
+    font-size: large;
+    color:white ;
+  }

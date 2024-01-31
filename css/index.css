@@ -1,0 +1,98 @@
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
+    color: #1b262c;
+    margin: 0;
+    background-color: #0f4c75;
+    background-image: url(../img/fondoindex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+
+    font-size:3rem;
+    color:white;
+    margin-left:  50px;
+    margin-top: 75px;
+    text-decoration: underline;
+    
+  }
+
+.about{
+    margin-left: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    margin-right: 1000px;
+}
+
+.inferior {
+    margin-top: 50px;
+    font-size: 90%;
+    margin-left: 245px;
+}
+
+.inferior a {
+    display: block;
+    text-decoration: none;
+    color: coral;
+    margin-bottom: 3px;
+}
+
+.inferior a:hover {
+    color: black;
+}
+
+.mapa{
+    border-radius: 5px;
+    border: 5px solid;
+    border-color: coral;
+    width: 500px;
+    height: 300px;
+
+}
+.navegador {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight:bold ;
+    
+  }
+.navegador nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 100px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .navegador ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navegador ul a {
+    margin-left: 1em;
+    text-decoration: none;
+    font-size: large;
+    color:white ;
+    font-weight: bold;
+  }
+
+  a:visited {
+    color: inherit;
+  }
+
+  a:hover {
+    background-color: #3282b8;
+    border-radius: 8px;
+    padding: 7px;
+    
+  }
